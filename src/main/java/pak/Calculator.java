@@ -10,6 +10,7 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		
 		Scanner sc=new Scanner(System.in);
+		System.out.println("please Enter a valid mathematical expresion to calculate like Eg:  ((1+3*2)");
 		String input = sc.nextLine();
 		
 		char[] stringToCharArray = input.toCharArray();
